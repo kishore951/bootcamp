@@ -36,9 +36,14 @@ public class CalMath {
                      System.out.println("Answer is"+r);
                      break;
                  case 4:
+                     try{
                      System.out.println("division of x and y");
                      r=x/y;
                      System.out.println("Answer is"+r);
+                     }
+                     catch (Exception e){
+                         System.out.println("division by zero is not possible");
+                     }
                      break;
                  case 5:
                      System.exit(0);
